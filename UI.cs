@@ -58,13 +58,13 @@ namespace CivSem1Challenge2_RegistrationSystem
                     }
 
                     int numStudents = this.CourseGetNumStudents(num);
-                    if(numStudents == 5555){
+                    if(numStudents == ){
                         System.Console.WriteLine($"Course 5555");
                     }
-                    //else(numStudents == -1) {
-                    //    System.Console.WriteLine($"Course {num} doesn't exist");
-                   //     break;
-                    //}
+                    // else(numStudents == -1) {
+                    //     System.Console.WriteLine($"Course {num} doesn't exist");
+                    //     break;
+                    // }
                     System.Console.WriteLine($"Course {num} has {numStudents} students");
                     break;
 
