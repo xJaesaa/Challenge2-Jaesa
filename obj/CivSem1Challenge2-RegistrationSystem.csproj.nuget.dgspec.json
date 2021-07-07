@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\103669129\\Desktop\\gamer\\Challenge2\\CivSem1Challenge2-RegistrationSystem.csproj": {}
+    "D:\\FoldersnShit\\TAFE_Work\\Programming\\Chall2Jaesa\\Challenge2-Jaesa\\CivSem1Challenge2-RegistrationSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\103669129\\Desktop\\gamer\\Challenge2\\CivSem1Challenge2-RegistrationSystem.csproj": {
+    "D:\\FoldersnShit\\TAFE_Work\\Programming\\Chall2Jaesa\\Challenge2-Jaesa\\CivSem1Challenge2-RegistrationSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\103669129\\Desktop\\gamer\\Challenge2\\CivSem1Challenge2-RegistrationSystem.csproj",
+        "projectUniqueName": "D:\\FoldersnShit\\TAFE_Work\\Programming\\Chall2Jaesa\\Challenge2-Jaesa\\CivSem1Challenge2-RegistrationSystem.csproj",
         "projectName": "CivSem1Challenge2-RegistrationSystem",
-        "projectPath": "C:\\Users\\103669129\\Desktop\\gamer\\Challenge2\\CivSem1Challenge2-RegistrationSystem.csproj",
-        "packagesPath": "C:\\Users\\103669129\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\103669129\\Desktop\\gamer\\Challenge2\\obj\\",
+        "projectPath": "D:\\FoldersnShit\\TAFE_Work\\Programming\\Chall2Jaesa\\Challenge2-Jaesa\\CivSem1Challenge2-RegistrationSystem.csproj",
+        "packagesPath": "C:\\Users\\Jaesa\\.nuget\\packages\\",
+        "outputPath": "D:\\FoldersnShit\\TAFE_Work\\Programming\\Chall2Jaesa\\Challenge2-Jaesa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\103669129\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jaesa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

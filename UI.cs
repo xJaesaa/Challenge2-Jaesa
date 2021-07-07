@@ -39,15 +39,11 @@ namespace CivSem1Challenge2_RegistrationSystem
             switch(input) {
 
                 case "1":
-                    //TODO: from the attribute this.Courses, print the courseNo and names of all of the courses
-                    // use GetCourseDetails to do this
-                    //Console.WriteLine(GetCourseDetails());
-                    int i = 0;
+                    int i = 0; 
                     while(i < 3){
                         Console.WriteLine(Courses[i].GetCourseDetails());
                         i++;
                     }
-                    //----------
                     break;
                 
                 case "2":
@@ -58,13 +54,13 @@ namespace CivSem1Challenge2_RegistrationSystem
                     }
 
                     int numStudents = this.CourseGetNumStudents(num);
-                    if(numStudents == ){
-                        System.Console.WriteLine($"Course 5555");
+                    if(numStudents >= 1){
+                        System.Console.WriteLine($"Course {num} exists");
                     }
-                    // else(numStudents == -1) {
-                    //     System.Console.WriteLine($"Course {num} doesn't exist");
-                    //     break;
-                    // }
+                    else{
+                        System.Console.WriteLine($"Course {num} doesn't exist");
+                        break;
+                    }
                     System.Console.WriteLine($"Course {num} has {numStudents} students");
                     break;
 
@@ -157,14 +153,30 @@ namespace CivSem1Challenge2_RegistrationSystem
             //TODO: write code find the relevant student in Students and return the student's first name and surname
             // if num doesn't exist in Students, return null;
             // should use the method GetFullName() from Student/Person to get the name
-            return null;
+            string studentName = "";
+            for (int i = 0; i < Students.Count; i++)
+            {
+                if (Students[i].StudentNo == num)
+                {
+                    studentName = Students[i].GetFullName();
+                }
+            }
+            return studentName;
         }
 
         private int CourseGetNumStudents(int num)
         {
             //TODO: write code find the relevant courseNo in Courses and return the number of students/enrolments
             // if num doesn't exist in Courses, return -1
-            return -1;
+            int total = 0;
+            for (int i = 0; i < Students.Count; i++)
+            {
+                if (Students[i].CourseNo == num)
+                {
+                    total++;
+                }
+            }
+            return total;
         }
 
         private void AddStudent()
@@ -215,6 +227,7 @@ namespace CivSem1Challenge2_RegistrationSystem
             while(!int.TryParse(Console.ReadLine(), out courseno)) {
                 System.Console.WriteLine("Invalid, enter again");
             }
+            
             //TODO: add the student to the desired course in this.Courses.  
             //      If the course doesn't exist let the user know and go back to the main menu.
             // -----------------------

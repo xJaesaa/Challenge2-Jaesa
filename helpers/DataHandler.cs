@@ -42,7 +42,7 @@ namespace CivSem1Challenge2_RegistrationSystem.helpers {
 
             for (int i = 0; i < data.Count; i++) {
                 var d = data[i];
-                var student = new Student (d.FirstName, d.Surname, d.YearOfBirth, d.MonthOfBirth, d.DateOfBirth, d.StudentNo, d.FirstRegistrationYear);
+                var student = new Student (d.FirstName, d.Surname, d.YearOfBirth, d.MonthOfBirth, d.DateOfBirth, d.StudentNo, d.FirstRegistrationYear, d.CourseNo);
                 for (int j = 0; j < courseList.Count; j++) {
                     Course c = courseList[j];
                     if (d.CourseNo == c.CourseNo) {
